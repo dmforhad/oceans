@@ -1,0 +1,50 @@
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.login ul li a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 16px 18px;
+    color: #121B2A;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.login ul li {
+    list-style: none;
+    float: left;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+.fa-lock:before {
+    content: "\f023";
+}
